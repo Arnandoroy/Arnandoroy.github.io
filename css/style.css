@@ -62,6 +62,7 @@ nav {
   color: #eaeaea;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: 400;
+  margin-top: 10px;
 }
 .jumbotron .wave {
   display: none;
@@ -150,11 +151,25 @@ nav {
   }
 }
 @media (max-width: 764px) {
+  .jumbotron {
+    height: 540px;
+    position: relative;
+  }
+  .jumbotron .kotak {
+    margin: auto;
+  }
   .jumbotron .hrl {
     display: none;
   }
 }
 @media (max-width: 550px) {
+  .jumbotron {
+    height: 540px;
+    position: relative;
+  }
+  .jumbotron .kotak {
+    margin: auto;
+  }
   .jumbotron .wave {
     display: inherit;
   }
